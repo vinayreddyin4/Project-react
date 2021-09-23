@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          App testing  <code> react project</code> and save to reload.
+          App testing from dev changes  <code> react project</code> and save to reload.
         </p>
         <a
           className="App-link"
