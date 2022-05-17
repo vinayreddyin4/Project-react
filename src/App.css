@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +30,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.brandName {
+  /* font-weight: bolder; */
+  color: rgb(139, 39, 39);
+   font-family: trattatello, fantasy;  
+   text-align: center;
+  /* font-family: Stencil Std, fantasy; */
+  /* font-family: brush script Mt, cursive ; */
+  
+
+}
+
+.headerMain {
+  font-family: trattatello, fantasy;
+   text-align: center; 
+    font-size: large;
+    font-weight: bolder;
+    float: right;
+
 }

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './Components/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          App testing from dev changes  <code> react project</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://www.instagram.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Instagram
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+
+  render() {
+    return (
+      <div >
+        <div className='brandName'>
+        <h1 >
+          Mandhadi's Shoppers Stop
+        </h1>
+
+        </div>
+        
+        <div className='headerMain'>
+          <Header />
+        </div>
+      </div>
+    );
+  }
 }
+
 
 export default App;
